@@ -27,6 +27,7 @@ elif x > 200:
     tax = 0.08 * x
     print(f'A tax deduction of ${tax} will be applied at a rate of 8%.')
 
+#Total price calculation
 total_price = x + tax
 print(f'PAY ${total_price}')
 y = purchase_amount - total_price
